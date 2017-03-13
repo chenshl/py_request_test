@@ -3,19 +3,15 @@
 # Author   : mjc
 # @Time    : 2017/3/6 11:12
 class Chain(object):
-
+    '''自动拼接URI地址'''
     def __init__(self, path=''):
         self._path = path
-        print('1')
     def __getattr__(self, path):
         return Chain('%s/%s' % (self._path, path))
-        print('2')
     def __call__(self,path):
         return Chain('%s/%s' % (self._path, path))
-        print('3')
     def __str__(self):
         return self._path
-        print('4')
     __repr__ = __str__
 
 

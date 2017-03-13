@@ -17,5 +17,7 @@ class Openbaidu(unittest.TestCase):
         '''打开百度'''
         payload = {}
         r = requests.get(self.url,params=payload)
-        self.result = r.json()
-        self.assertEqual(self.result['title'],'百度一下，你就知道')
+
+        self.assertEqual(str(r.status_code),'200')
+if __name__ == '__main__':
+    Openbaidu.test_open_baidu(())
