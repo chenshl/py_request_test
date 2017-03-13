@@ -32,7 +32,9 @@ class interfaceDes:
 
 if __name__ == '__main__':
     interfaceDestest = interfaceDes('4bbd85de',[0x1, 0x2, 0x3, 0x4, 0x5, 0x6, 0x7, 0x8])
-    encrypt_test = interfaceDestest.get_encrypt_data('xiaoming')
+    name=dict(a=100)
+    import json
+    encrypt_test = interfaceDestest.get_encrypt_data(json.JSONEncoder().encode(name))
     print('加密编码后的字符为:%s' % encrypt_test)
     decrypt_test = interfaceDestest.get_decrypt_data(encrypt_test)
     print('解密编码后的字符为:%s' % decrypt_test)
