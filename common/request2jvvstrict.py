@@ -29,6 +29,7 @@ class request2jvvstrict(common.request2jvv):
     def send(self):
         if self.checkApiIsReg():
             self.sortParam()
+            self.apiParam = self.getPriParam()
             r = requests.post(self.getFullApi(),self.apiParam)
             self.bodyArr = json.dump(r.content)
             if isinstance(self.bodyArr,dict):
