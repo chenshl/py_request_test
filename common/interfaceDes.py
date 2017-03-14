@@ -32,7 +32,8 @@ class interfaceDes:
 
 if __name__ == '__main__':
     interfaceDestest = interfaceDes('4bbd85de',[0x1, 0x2, 0x3, 0x4, 0x5, 0x6, 0x7, 0x8])
-    name=dict(a=100)
+    name=dict(b=100,c='jack',a='lili')
+   # print(sorted(name.items()))
     import json
     encrypt_test = interfaceDestest.get_encrypt_data(json.JSONEncoder().encode(name))
     print('加密编码后的字符为:%s' % encrypt_test)
