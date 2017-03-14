@@ -18,12 +18,12 @@ class request2jwwstrict(baserequest):
         r = requests.post(self.get_fullAPIUrl(self.apiName), self.sortPriParam)
         if r.status_code == 200:
             self.body = r.json()
-            if self.body['result'] == str(1):
-                print(self.body)
-            else:
-                print('请求返回失败')
-                print(self.body)
-
+            # if self.body['result'] == str(1):
+            #     print(self.body)
+            # else:
+            #     print('请求返回失败')
+            #     print(self.body)
+        return self.body
 
 
     def getPriParam(self):
@@ -43,4 +43,3 @@ if __name__ == '__main__':
                 'Password':111111,
                 'repeatPayPassword':543578,
                 'smsCode':1234}
-    request2jwwstrict(apiname,apiParam)
