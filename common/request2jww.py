@@ -16,7 +16,6 @@ class request2jww(object):
 
     def send(self):
         self.sortapiParam = self.sortParam()
-        # print(self.sortapiParam)
         r = requests.post(self.get_fullAPIUrl(self.apiName),self.sortapiParam)
         if r.status_code == 200:
             self.body = r.json()
