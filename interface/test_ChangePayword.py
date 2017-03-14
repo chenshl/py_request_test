@@ -10,6 +10,8 @@ class ChangePayword(unittest.TestCase):
         self.apiname = '/m/php/shop/forgetPayPasswordPhp'
     def tearDown(self):
         pass
+
+
     def test_error_smscode(self):
         '''错误的验证码'''
         self.apiParam = {'userId': '000065bc-bcb2-11e5-b300-d89d672713e0',
@@ -21,6 +23,7 @@ class ChangePayword(unittest.TestCase):
         r = request2jwwstrict(self.apiname, self.apiParam)
         self.assertEqual(r.send(),self.expect)
 
+
     def test_suc_smscode(self):
         '''正确的验证码'''
         self.apiParam = {'userId': '000065bc-bcb2-11e5-b300-d89d672713e0',
@@ -31,6 +34,8 @@ class ChangePayword(unittest.TestCase):
 
         r = request2jwwstrict(self.apiname, self.apiParam)
         self.assertEqual(r.send(),self.expect)
+
+
 
 if __name__ == '__main__':
     ChangePayword.test_error_smscode()
