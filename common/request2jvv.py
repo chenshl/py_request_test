@@ -30,7 +30,8 @@ class request2jvv(object):
         self.str = ''
         for i in self.signlist:
             self.str += str(i[1])
-        self.pubparam['sign'] = self.get_md5(self.str)
+        self.sign = self.get_md5(self.str)
+        self.pubparam['sign'] = self.sign
 
 
     def get_rand_string(self,randomlength=22):

@@ -13,7 +13,7 @@ class new_userinfo(unittest.TestCase):
 
     def test_suc_userinfo(self):
         '''正确的请求'''
-        self.param = dict(userId ='20170301001000000001')
+        self.param = {'userId':'201703010010000000457'}
         self.expt = {'message': '查询用户成功',
      'datas': {'username': 'test001', 'age': 12, 'userId': '20170301001000000001', 'status': 'CHECKING'},
      'orderNo': '39gOef7zIgbZxh177BuSMK', 'detailMessage': '查询用户成功', 'code': '200', 'status': 'success'}

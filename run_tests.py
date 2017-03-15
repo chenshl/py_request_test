@@ -4,9 +4,10 @@
 # @Time    : 2017/2/28 15:09
 import logging
 import time,sys
+date = time.strftime('%Y-%m-%d')
 logging.basicConfig(level=logging.INFO,format='%(asctime)s %(filename)s[line:%(lineno)d] %(levelname)s %(message)s',
                     datefmt='%Y %b %d %a %H:%M:%S',
-                    filename='./run.log',
+                    filename='./report/log/' + date + '.log',
                     filemode='a'
                     )
 

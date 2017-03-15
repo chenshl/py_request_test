@@ -2,7 +2,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>接口测试报告2017-03-15 10-36-18</title>
+    <title>接口测试报告2017-03-15 18-26-59</title>
     <meta name="generator" content="HTMLTestRunner 0.8.2"/>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 	<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
@@ -190,10 +190,10 @@ function showOutput(id, name) {
 --></script>
 
 <div class='heading'>
-<h1>接口测试报告2017-03-15 10-36-18</h1>
-<p class='attribute'><strong>开始时间:</strong> 2017-03-15 10:36:18</p>
-<p class='attribute'><strong>执行时长:</strong> 0:00:00.222013</p>
-<p class='attribute'><strong>执行状态:</strong> 通过 2 个</p>
+<h1>接口测试报告2017-03-15 18-26-59</h1>
+<p class='attribute'><strong>开始时间:</strong> 2017-03-15 18:26:59</p>
+<p class='attribute'><strong>执行时长:</strong> 0:00:10.389618</p>
+<p class='attribute'><strong>执行状态:</strong> 通过 2 个 失败 1 个</p>
 
 <p class='description'>
                             内部接口测试报告结果（仅供参考）,
@@ -244,11 +244,70 @@ function showOutput(id, name) {
     <td colspan='5' align='center'>pass</td>
 </tr>
 
+<tr class='failClass'>
+    <td>test_new_userinfo.new_userinfo: 新加密接口调试</td>
+    <td>1</td>
+    <td>0</td>
+    <td>1</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c2',1)">详情</a></td>
+</tr>
+
+<tr id='ft2.1' class='none'>
+    <td class='failCase'><div class='testcase'>test_suc_userinfo: 正确的请求</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft2.1')" >
+        fail</a>
+
+    <div id='div_ft2.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft2.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft2.1: Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\py_request_test\interface\test_new_userinfo.py", line 21, in test_suc_userinfo
+    self.assertEqual(r,self.expt)
+AssertionError: {'cod[24 chars]e': '用户不存在', 'orderNo': 'UAwhPJLEhENl1INLiWFyi[49 chars]ail'} != {'cod[24 chars]e': '查询用户成功', 'orderNo': '39gOef7zIgbZxh177BuS[142 chars]ess'}
+  {'code': '200',
+-  'datas': {},
++  'datas': {'age': 12,
++            'status': 'CHECKING',
++            'userId': '20170301001000000001',
++            'username': 'test001'},
+-  'detailMessage': '用户不存在',
+?                      ^^^
+
++  'detailMessage': '查询用户成功',
+?                    ++  ^^
+
+-  'message': '用户不存在',
+?                ^^^
+
++  'message': '查询用户成功',
+?              ++  ^^
+
+-  'orderNo': 'UAwhPJLEhENl1INLiWFyil',
+-  'status': 'fail'}
++  'orderNo': '39gOef7zIgbZxh177BuSMK',
++  'status': 'success'}
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
 <tr id='total_row'>
     <td>统计</td>
-    <td>2</td>
+    <td>3</td>
     <td class="text text-success">2</td>
-    <td class="text text-danger">0</td>
+    <td class="text text-danger">1</td>
     <td class="text text-warning">0</td>
     <td>&nbsp;</td>
 </tr>

@@ -2,22 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="892860c3-0948-49d3-b4d2-d74a04b2b0ec" name="默认的" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/request2jvv.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interface/test_new_userinfo.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/接口测试报告_2017-03-15 10-43-59.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/run.log" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/接口测试报告_2017-02-28 15-53-21.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/接口测试报告_2017-02-28 15-53-44.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/接口测试报告_2017-02-28 15-58-35.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/接口测试报告_2017-02-28 15-58-59.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/接口测试报告_2017-02-28 15-59-36.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/接口测试报告_2017-03-10 17-37-17.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/接口测试报告_2017-03-14 17-46-44.html" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/report/接口测试报告_2017-03-14 17-40-07.html" afterPath="$PROJECT_DIR$/report/接口测试报告_2017-03-15 10-36-18.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/report/接口测试报告_2017-03-14 17-42-30.html" afterPath="$PROJECT_DIR$/report/接口测试报告_2017-03-15 10-47-52.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/log/2017-03-15.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/接口测试报告_2017-03-15 18-26-59.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/接口测试报告_2017-03-15 10-36-18.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/接口测试报告_2017-03-15 10-43-59.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/接口测试报告_2017-03-15 10-47-52.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run.log" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/interface/test_ChangePayword.py" afterPath="$PROJECT_DIR$/interface/test_ChangePayword.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/request2jvv.py" afterPath="$PROJECT_DIR$/common/request2jvv.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/interface/test_new_userinfo.py" afterPath="$PROJECT_DIR$/interface/test_new_userinfo.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run_tests.py" afterPath="$PROJECT_DIR$/run_tests.py" />
     </list>
     <ignored path="py_request_test.iws" />
@@ -50,11 +44,11 @@
     <SUITE FILE_PATH="coverage/py_request_test$Unittests_in_ChangePayword.coverage" NAME="Unittests in ChangePayword Coverage Results" MODIFIED="1489484351228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/interface" />
     <SUITE FILE_PATH="coverage/py_request_test$other_demo.coverage" NAME="other_demo Coverage Results" MODIFIED="1488793427491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/py_request_test$fileIo.coverage" NAME="fileIo Coverage Results" MODIFIED="1488961120723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
-    <SUITE FILE_PATH="coverage/py_request_test$request2jvv.coverage" NAME="request2jvv Coverage Results" MODIFIED="1489570946092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
+    <SUITE FILE_PATH="coverage/py_request_test$request2jvv.coverage" NAME="request2jvv Coverage Results" MODIFIED="1489572955192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
     <SUITE FILE_PATH="coverage/py_request_test$testthreadingpool.coverage" NAME="testthreadingpool Coverage Results" MODIFIED="1489124493480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/other" />
     <SUITE FILE_PATH="coverage/py_request_test$Unittest_new_userinfo_test_suc_userinfo__2_.coverage" NAME="Unittest new_userinfo.test_suc_userinfo (2) Coverage Results" MODIFIED="1489570977826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/interface" />
-    <SUITE FILE_PATH="coverage/py_request_test$run_tests.coverage" NAME="run_tests Coverage Results" MODIFIED="1489546070499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/py_request_test$Unittest_new_userinfo_test_suc_userinfo.coverage" NAME="Unittest new_userinfo.test_suc_userinfo Coverage Results" MODIFIED="1489571289657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/interface" />
+    <SUITE FILE_PATH="coverage/py_request_test$Unittest_new_userinfo_test_suc_userinfo.coverage" NAME="Unittest new_userinfo.test_suc_userinfo Coverage Results" MODIFIED="1489573210709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/interface" />
+    <SUITE FILE_PATH="coverage/py_request_test$run_tests.coverage" NAME="run_tests Coverage Results" MODIFIED="1489573619037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/py_request_test$Unittests_in_ChangePayword__1_.coverage" NAME="Unittests in ChangePayword (1) Coverage Results" MODIFIED="1489484536118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/interface" />
     <SUITE FILE_PATH="coverage/py_request_test$Unittest_ChangePayword_test_suc_smscode.coverage" NAME="Unittest ChangePayword.test_suc_smscode Coverage Results" MODIFIED="1489484939471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/interface" />
     <SUITE FILE_PATH="coverage/py_request_test$run_test2.coverage" NAME="run_test2 Coverage Results" MODIFIED="1489545838093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -70,30 +64,7 @@
     <favorites_list name="py_request_test" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="request2jvv.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/request2jvv.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-              <folding>
-                <element signature="e#363#594#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_new_userinfo.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/interface/test_new_userinfo.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="19" column="55" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -135,14 +106,16 @@
         <option value="$PROJECT_DIR$/interface/test_Changepassword.py" />
         <option value="$PROJECT_DIR$/interface/test_ChangePayword.py" />
         <option value="$PROJECT_DIR$/common/sendmail.py" />
-        <option value="$PROJECT_DIR$/run.log" />
         <option value="$PROJECT_DIR$/HTMLTestRunner.py" />
-        <option value="$PROJECT_DIR$/run_tests.py" />
         <option value="$PROJECT_DIR$/run_test2.py" />
         <option value="$PROJECT_DIR$/common/request2jww_new.py" />
         <option value="$PROJECT_DIR$/common/test.py" />
-        <option value="$PROJECT_DIR$/common/request2jvv.py" />
+        <option value="$PROJECT_DIR$/run.log" />
         <option value="$PROJECT_DIR$/interface/test_new_userinfo.py" />
+        <option value="$PROJECT_DIR$/common/request2jvv.py" />
+        <option value="$PROJECT_DIR$/2017-03-15.log" />
+        <option value="$PROJECT_DIR$/run_tests.py" />
+        <option value="$PROJECT_DIR$/report/log/2017-03-15.log" />
       </list>
     </option>
   </component>
@@ -209,7 +182,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -252,6 +224,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="report" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="log" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="py_request_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="py_request_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="interface" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -272,6 +262,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -289,7 +280,7 @@
       <recent name="C:\Users\Administrator\PycharmProjects\py_request_test\other" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittest new_userinfo.test_suc_userinfo">
+  <component name="RunManager" selected="Python.run_tests">
     <configuration default="false" name="request2jvv" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -329,24 +320,6 @@
       <option name="PUREUNITTEST" value="true" />
       <option name="PARAMS" value="" />
       <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="test_new_userinfo" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/interface" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="py_request_test" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/interface/test_new_userinfo.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
     <configuration default="false" name="Unittest new_userinfo.test_suc_userinfo (1)" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
@@ -393,6 +366,24 @@
       <option name="PUREUNITTEST" value="true" />
       <option name="PARAMS" value="" />
       <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="run_tests" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="py_request_test" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run_tests.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -625,17 +616,17 @@
       <item index="0" class="java.lang.String" itemvalue="Python.fileIo (1)" />
       <item index="1" class="java.lang.String" itemvalue="Python.request2jvv" />
       <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest new_userinfo.test_suc_userinfo" />
-      <item index="3" class="java.lang.String" itemvalue="Python.test_new_userinfo" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest new_userinfo.test_suc_userinfo (1)" />
-      <item index="5" class="java.lang.String" itemvalue="Python tests.Unittest new_userinfo.test_suc_userinfo (2)" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest new_userinfo.test_suc_userinfo (1)" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest new_userinfo.test_suc_userinfo (2)" />
+      <item index="5" class="java.lang.String" itemvalue="Python.run_tests" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittest new_userinfo.test_suc_userinfo" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest new_userinfo.test_suc_userinfo (2)" />
+        <item index="0" class="java.lang.String" itemvalue="Python.run_tests" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest new_userinfo.test_suc_userinfo" />
         <item index="2" class="java.lang.String" itemvalue="Python.request2jvv" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest new_userinfo.test_suc_userinfo (1)" />
-        <item index="4" class="java.lang.String" itemvalue="Python.test_new_userinfo" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest new_userinfo.test_suc_userinfo (2)" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest new_userinfo.test_suc_userinfo (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -716,17 +707,24 @@
       <option name="project" value="LOCAL" />
       <updated>1489485023700</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="增加用户管理后台接口调试通过">
+      <created>1489571362294</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1489571362294</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittest_new_userinfo_test_suc_userinfo - 2017.03.15 at 17h 39m 17s.xml">
+    <history-entry file="Unittest_new_userinfo_test_suc_userinfo - 2017.03.15 at 18h 17m 23s.xml">
       <configuration name="Unittest new_userinfo.test_suc_userinfo" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_new_userinfo_test_suc_userinfo - 2017.03.15 at 17h 46m 32s.xml">
+    <history-entry file="Unittest_new_userinfo_test_suc_userinfo - 2017.03.15 at 18h 19m 34s.xml">
       <configuration name="Unittest new_userinfo.test_suc_userinfo" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_new_userinfo_test_suc_userinfo - 2017.03.15 at 17h 48m 20s.xml">
+    <history-entry file="Unittest_new_userinfo_test_suc_userinfo - 2017.03.15 at 18h 20m 21s.xml">
       <configuration name="Unittest new_userinfo.test_suc_userinfo" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittest_new_userinfo_test_suc_userinfo_(1) - 2017.03.15 at 17h 41m 13s.xml">
@@ -765,7 +763,7 @@
     <editor active="false" />
     <layout>
       <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18550107" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18763326" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.52979416" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3206934" sideWeight="0.50852877" order="7" side_tool="true" content_ui="tabs" />
@@ -773,7 +771,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22101842" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39219934" sideWeight="0.4914712" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3802817" sideWeight="0.4914712" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -827,7 +825,8 @@
     <MESSAGE value="加密接口调试" />
     <MESSAGE value="接口调试完成" />
     <MESSAGE value="尝试在unittest框架下运行" />
-    <option name="LAST_COMMIT_MESSAGE" value="尝试在unittest框架下运行" />
+    <MESSAGE value="增加用户管理后台接口调试通过" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加用户管理后台接口调试通过" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -836,49 +835,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/python-skeletons/multiprocessing/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4800">
-          <caret line="200" column="11" selection-start-line="200" selection-start-column="11" selection-end-line="200" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files/Python35/Lib/asyncio/locks.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="185" column="66" selection-start-line="185" selection-start-column="66" selection-end-line="185" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/other/fileIo.py" />
-    <entry file="file://C:/Program Files/Python35/Lib/threading.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="1309" column="27" selection-start-line="1309" selection-start-column="27" selection-end-line="1309" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2016.2/system/python_stubs/-1249248731/_thread.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="409" column="12" selection-start-line="409" selection-start-column="12" selection-end-line="409" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files/Python35/Lib/asyncio/coroutines.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="227" column="30" selection-start-line="227" selection-start-column="30" selection-end-line="227" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files/Python35/Lib/site-packages/threadpool.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="81" column="37" selection-start-line="81" selection-start-column="28" selection-end-line="81" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Program Files/Python35/Lib/multiprocessing/process.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2496">
@@ -975,14 +931,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/report/接口测试报告_2017-03-15 09-54-30.html" />
-    <entry file="file://$PROJECT_DIR$/common/sendmail.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/common/sendmail.py" />
     <entry file="file://$PROJECT_DIR$/report/接口测试报告_2017-03-15 10-22-31.html" />
     <entry file="file://C:/Program Files/Python35/Lib/logging/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1020,14 +969,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/run_test2.py" />
-    <entry file="file://$PROJECT_DIR$/run.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Program Files/Python35/Lib/site-packages/HtmlTestRunner/runner.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1039,7 +980,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1051,58 +991,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/request2jww_new.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="44" column="8" selection-start-line="44" selection-start-column="8" selection-end-line="47" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/run_tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/common/request2jww_new.py" />
     <entry file="file://$PROJECT_DIR$/common/request2jww.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="239">
           <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="99" selection-start-line="5" selection-start-column="54" selection-end-line="5" selection-end-column="99" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/common/test.py" />
     <entry file="file://$PROJECT_DIR$/common/request2jwwstrict.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1056">
           <caret line="44" column="31" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="31" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/接口测试报告_2017-03-15 17-50-29.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/接口测试报告_2017-03-15 17-52-09.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/interface/test_ChangePayword.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="869">
-          <caret line="40" column="36" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="36" />
+        <state relative-caret-position="744">
+          <caret line="31" column="36" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/接口测试报告_2017-03-15 17-56-16.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/接口测试报告_2017-03-15 18-01-25.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/接口测试报告_2017-03-15 18-02-16.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-504">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/common/request2jvv.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        <state relative-caret-position="288">
+          <caret line="49" column="23" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
           <folding>
             <element signature="e#363#594#0" expanded="false" />
           </folding>
@@ -1111,8 +1062,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/interface/test_new_userinfo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="19" column="55" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
+        <state relative-caret-position="327">
+          <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="65" column="69" selection-start-line="65" selection-start-column="69" selection-end-line="65" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2017-03-15.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="69" selection-start-line="6" selection-start-column="69" selection-end-line="6" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/log/2017-03-15.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="69" selection-start-line="6" selection-start-column="69" selection-end-line="6" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
           <folding />
         </state>
       </provider>
