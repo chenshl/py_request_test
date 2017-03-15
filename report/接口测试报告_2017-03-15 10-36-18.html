@@ -2,7 +2,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>接口测试报告2017-03-10 17-37-17</title>
+    <title>接口测试报告2017-03-15 10-36-18</title>
     <meta name="generator" content="HTMLTestRunner 0.8.2"/>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 	<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
@@ -190,10 +190,10 @@ function showOutput(id, name) {
 --></script>
 
 <div class='heading'>
-<h1>接口测试报告2017-03-10 17-37-17</h1>
-<p class='attribute'><strong>开始时间:</strong> 2017-03-10 17:37:17</p>
-<p class='attribute'><strong>执行时长:</strong> 0:00:00.380022</p>
-<p class='attribute'><strong>执行状态:</strong> 通过 2 个 错误 1 个</p>
+<h1>接口测试报告2017-03-15 10-36-18</h1>
+<p class='attribute'><strong>开始时间:</strong> 2017-03-15 10:36:18</p>
+<p class='attribute'><strong>执行时长:</strong> 0:00:00.222013</p>
+<p class='attribute'><strong>执行状态:</strong> 通过 2 个</p>
 
 <p class='description'>
                             内部接口测试报告结果（仅供参考）,
@@ -226,75 +226,30 @@ function showOutput(id, name) {
 </tr>
 
 <tr class='passClass'>
-    <td>test_openbaidu.Openbaidu: 百度测试</td>
-    <td>1</td>
-    <td>1</td>
+    <td>test_ChangePayword.ChangePayword: 修改支付密码</td>
+    <td>2</td>
+    <td>2</td>
     <td>0</td>
     <td>0</td>
-    <td><a href="javascript:showClassDetail('c1',1)">详情</a></td>
+    <td><a href="javascript:showClassDetail('c1',2)">详情</a></td>
 </tr>
 
 <tr id='pt1.1' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_open_baidu: 打开百度</div></td>
+    <td class='none'><div class='testcase'>test_error_smscode: 错误的验证码</div></td>
     <td colspan='5' align='center'>pass</td>
 </tr>
 
-<tr class='errorClass'>
-    <td>test_opengoogle.Openbaidu: 谷歌测试</td>
-    <td>2</td>
-    <td>1</td>
-    <td>0</td>
-    <td>1</td>
-    <td><a href="javascript:showClassDetail('c2',2)">详情</a></td>
-</tr>
-
-<tr id='pt2.1' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_login: 登录接口</div></td>
+<tr id='pt1.2' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_suc_smscode: 正确的验证码</div></td>
     <td colspan='5' align='center'>pass</td>
-</tr>
-
-<tr id='ft2.2' class='none'>
-    <td class='errorCase'><div class='testcase'>test_open_baidu: 打开谷歌</div></td>
-    <td colspan='5' align='center'>
-
-    <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft2.2')" >
-        error</a>
-
-    <div id='div_ft2.2' class="popup_window">
-        <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_ft2.2').style.display = 'none' " >
-           [x]</a>
-        </div>
-        <pre>
-        
-ft2.2: Traceback (most recent call last):
-  File "C:\Users\Administrator\PycharmProjects\py_request_test\interface\test_opengoogle.py", line 20, in test_open_baidu
-    self.result = r.json()
-  File "C:\Program Files\Python35\lib\site-packages\requests\models.py", line 866, in json
-    return complexjson.loads(self.text, **kwargs)
-  File "C:\Program Files\Python35\lib\json\__init__.py", line 319, in loads
-    return _default_decoder.decode(s)
-  File "C:\Program Files\Python35\lib\json\decoder.py", line 339, in decode
-    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
-  File "C:\Program Files\Python35\lib\json\decoder.py", line 357, in raw_decode
-    raise JSONDecodeError("Expecting value", s, err.value) from None
-json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
-
-
-        </pre>
-    </div>
-    <!--css div popup end-->
-
-    </td>
 </tr>
 
 <tr id='total_row'>
     <td>统计</td>
-    <td>3</td>
+    <td>2</td>
     <td class="text text-success">2</td>
     <td class="text text-danger">0</td>
-    <td class="text text-warning">1</td>
+    <td class="text text-warning">0</td>
     <td>&nbsp;</td>
 </tr>
 </table>
