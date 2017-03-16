@@ -9,7 +9,7 @@ class request2jww(object):
     def __init__(self,apiName='',apiParam = {}):
         self.apiName = apiName
         self.apiParam = apiParam
-        self.send()
+        # self.send()
 
     def get_fullAPIUrl(self,apiName):
         return apiHeader + apiName
@@ -23,7 +23,7 @@ class request2jww(object):
                 print(self.body)
             else:
                 print('请求失败')
-
+        return self.body
     def sortParam(self):
         # sorted(self.apiParam.items())
         # for k,v in self.apiParam.items():
@@ -35,4 +35,4 @@ class request2jww(object):
 if __name__ == '__main__':
     apiname = '/s/shop/pay/wobi/qry'
     apiParam = {'userId':'000065bc-bcb2-11e5-b300-d89d672713e0'}
-    request2jww(apiName=apiname,apiParam=apiParam)
+    request2jww(apiName=apiname,apiParam=apiParam).send()

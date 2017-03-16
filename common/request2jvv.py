@@ -42,11 +42,13 @@ class request2jvv(object):
         random = Random()
         for i in range(randomlength):
             str += chars[random.randint(0, length)]
+
         return str
 
 
     def send(self):
         r = requests.get(self.url,self.pubparam)
+        print(r.json())
         return r.json()
 
     def get_md5(self,string):
@@ -57,4 +59,4 @@ class request2jvv(object):
 
 if __name__ == '__main__':
     key = {'userId':'20170301001000000001'}
-    request2jvv('test',key)
+    request2jvv('test',key).send()

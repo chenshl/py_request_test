@@ -1,7 +1,0 @@
-2017 Mar 15 Wed 18:26:59 run_tests.py[line:15] INFO =================
-2017 Mar 15 Wed 18:26:59 run_tests.py[line:16] INFO 载入环境变量成功
-2017 Mar 15 Wed 18:26:59 run_tests.py[line:21] INFO 搜寻测试脚本成功
-2017 Mar 15 Wed 18:26:59 run_tests.py[line:32] INFO 开始执行测试脚本
-2017 Mar 15 Wed 18:27:09 run_tests.py[line:34] INFO 执行测试脚本结束
-2017 Mar 15 Wed 18:27:09 run_tests.py[line:36] INFO 测试完成
-2017 Mar 15 Wed 18:27:09 run_tests.py[line:37] INFO =================

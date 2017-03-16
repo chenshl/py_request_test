@@ -23,6 +23,7 @@ class request2jwwstrict(baserequest):
             # else:
             #     print('请求返回失败')
             #     print(self.body)
+        print(self.body)
         return self.body
 
 
@@ -43,3 +44,5 @@ if __name__ == '__main__':
                 'Password':111111,
                 'repeatPayPassword':543578,
                 'smsCode':1234}
+
+    request2jwwstrict(apiName=apiname, apiParam=apiParam).send()

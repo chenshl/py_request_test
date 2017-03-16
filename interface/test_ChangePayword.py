@@ -20,8 +20,8 @@ class ChangePayword(unittest.TestCase):
                     'smsCode': 1234}
         self.expect = {'failureReason': '没有重置密码短信发送记录', 'result': '0'}
 
-        r = request2jwwstrict(self.apiname, self.apiParam)
-        self.assertEqual(r.send(),self.expect)
+        r = request2jwwstrict(self.apiname, self.apiParam).send()
+        self.assertEqual(r,self.expect)
 
 
     def test_suc_smscode(self):
