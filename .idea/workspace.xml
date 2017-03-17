@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="892860c3-0948-49d3-b4d2-d74a04b2b0ec" name="默认的" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interface/excelcase/test_excelcasedemo.xls" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/excelreader.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/log/2017-03-16.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/接口测试报告_2017-03-16 17-23-37.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/common_openaptest.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interface/test_userResetPwd.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/common/excelreader.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/interface/excelcase/test_excelcasedemo.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/interface/test_ChangePayword.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/interface/test_new_userinfo.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
     </list>
     <ignored path="py_request_test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,15 +37,17 @@
     <SUITE FILE_PATH="coverage/py_request_test$baseurlpath.coverage" NAME="baseurlpath Coverage Results" MODIFIED="1489391399525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
     <SUITE FILE_PATH="coverage/py_request_test$request2jww_new.coverage" NAME="request2jww_new Coverage Results" MODIFIED="1489567019122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
     <SUITE FILE_PATH="coverage/py_request_test$test.coverage" NAME="test Coverage Results" MODIFIED="1489570362080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
-    <SUITE FILE_PATH="coverage/py_request_test$test_new_userinfo.coverage" NAME="test_new_userinfo Coverage Results" MODIFIED="1489570831950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/interface" />
+    <SUITE FILE_PATH="coverage/py_request_test$test_new_userinfo.coverage" NAME="test_new_userinfo Coverage Results" MODIFIED="1489656620505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/interface" />
     <SUITE FILE_PATH="coverage/py_request_test$Unittests_in_ChangePayword.coverage" NAME="Unittests in ChangePayword Coverage Results" MODIFIED="1489484351228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/interface" />
+    <SUITE FILE_PATH="coverage/py_request_test$Unittest_userResetPwd_test_suc_resetloginpwd.coverage" NAME="Unittest userResetPwd.test_suc_resetloginpwd Coverage Results" MODIFIED="1489719934639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/interface" />
     <SUITE FILE_PATH="coverage/py_request_test$other_demo.coverage" NAME="other_demo Coverage Results" MODIFIED="1488793427491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/py_request_test$fileIo.coverage" NAME="fileIo Coverage Results" MODIFIED="1488961120723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
     <SUITE FILE_PATH="coverage/py_request_test$request2jvv.coverage" NAME="request2jvv Coverage Results" MODIFIED="1489643427999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
+    <SUITE FILE_PATH="coverage/py_request_test$common_openaptest.coverage" NAME="common_openaptest Coverage Results" MODIFIED="1489721906518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
     <SUITE FILE_PATH="coverage/py_request_test$testthreadingpool.coverage" NAME="testthreadingpool Coverage Results" MODIFIED="1489124493480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/other" />
     <SUITE FILE_PATH="coverage/py_request_test$Unittest_new_userinfo_test_suc_userinfo__2_.coverage" NAME="Unittest new_userinfo.test_suc_userinfo (2) Coverage Results" MODIFIED="1489570977826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/interface" />
-    <SUITE FILE_PATH="coverage/py_request_test$Unittest_new_userinfo_test_suc_userinfo.coverage" NAME="Unittest new_userinfo.test_suc_userinfo Coverage Results" MODIFIED="1489573210709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/interface" />
     <SUITE FILE_PATH="coverage/py_request_test$run_tests.coverage" NAME="run_tests Coverage Results" MODIFIED="1489656216697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/py_request_test$Unittest_new_userinfo_test_suc_userinfo.coverage" NAME="Unittest new_userinfo.test_suc_userinfo Coverage Results" MODIFIED="1489656570684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/interface" />
     <SUITE FILE_PATH="coverage/py_request_test$Unittests_in_ChangePayword__1_.coverage" NAME="Unittests in ChangePayword (1) Coverage Results" MODIFIED="1489484536118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/interface" />
     <SUITE FILE_PATH="coverage/py_request_test$Unittest_ChangePayword_test_suc_smscode.coverage" NAME="Unittest ChangePayword.test_suc_smscode Coverage Results" MODIFIED="1489484939471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/interface" />
     <SUITE FILE_PATH="coverage/py_request_test$run_test2.coverage" NAME="run_test2 Coverage Results" MODIFIED="1489545838093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -61,7 +63,28 @@
     <favorites_list name="py_request_test" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="test_userResetPwd.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/interface/test_userResetPwd.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="common_openaptest.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/common_openaptest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -104,7 +127,6 @@
         <option value="$PROJECT_DIR$/common/request2jww_new.py" />
         <option value="$PROJECT_DIR$/common/test.py" />
         <option value="$PROJECT_DIR$/run.log" />
-        <option value="$PROJECT_DIR$/interface/test_new_userinfo.py" />
         <option value="$PROJECT_DIR$/2017-03-15.log" />
         <option value="$PROJECT_DIR$/report/log/2017-03-15.log" />
         <option value="$PROJECT_DIR$/interface/test_ChangePayword.py" />
@@ -113,9 +135,12 @@
         <option value="$PROJECT_DIR$/common/request2jvv.py" />
         <option value="$PROJECT_DIR$/run_tests.py" />
         <option value="$PROJECT_DIR$/common/writelog.py" />
-        <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/report/log/2017-03-16.log" />
         <option value="$PROJECT_DIR$/common/excelreader.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/interface/test_new_userinfo.py" />
+        <option value="$PROJECT_DIR$/interface/test_userResetPwd.py" />
+        <option value="$PROJECT_DIR$/common/common_openaptest.py" />
       </list>
     </option>
   </component>
@@ -184,7 +209,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -260,30 +284,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="interface" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="excelcase" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="py_request_test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="py_request_test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="common" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -301,25 +308,7 @@
       <recent name="C:\Users\Administrator\PycharmProjects\py_request_test\other" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.run_tests">
-    <configuration default="false" name="request2jvv" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="py_request_test" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/request2jvv.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.common_openaptest">
     <configuration default="false" name="run_tests" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -338,43 +327,71 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="request2jww" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="Unittest new_userinfo.test_suc_userinfo" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/interface" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="py_request_test" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/interface/test_new_userinfo.py" />
+      <option name="CLASS_NAME" value="new_userinfo" />
+      <option name="METHOD_NAME" value="test_suc_userinfo" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="test_new_userinfo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/interface" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="py_request_test" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/request2jww.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/interface/test_new_userinfo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="request2jwwstrict" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="Unittest userResetPwd.test_suc_resetloginpwd" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
+      <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/interface" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="py_request_test" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/request2jwwstrict.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/interface/test_userResetPwd.py" />
+      <option name="CLASS_NAME" value="userResetPwd" />
+      <option name="METHOD_NAME" value="test_suc_resetloginpwd" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="excelreader" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="common_openaptest" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -387,7 +404,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="py_request_test" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/excelreader.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/common_openaptest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -620,19 +637,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.fileIo (1)" />
-      <item index="1" class="java.lang.String" itemvalue="Python.request2jvv" />
-      <item index="2" class="java.lang.String" itemvalue="Python.run_tests" />
-      <item index="3" class="java.lang.String" itemvalue="Python.request2jww" />
-      <item index="4" class="java.lang.String" itemvalue="Python.request2jwwstrict" />
-      <item index="5" class="java.lang.String" itemvalue="Python.excelreader" />
+      <item index="1" class="java.lang.String" itemvalue="Python.run_tests" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest new_userinfo.test_suc_userinfo" />
+      <item index="3" class="java.lang.String" itemvalue="Python.test_new_userinfo" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest userResetPwd.test_suc_resetloginpwd" />
+      <item index="5" class="java.lang.String" itemvalue="Python.common_openaptest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.run_tests" />
-        <item index="1" class="java.lang.String" itemvalue="Python.excelreader" />
-        <item index="2" class="java.lang.String" itemvalue="Python.request2jwwstrict" />
-        <item index="3" class="java.lang.String" itemvalue="Python.request2jww" />
-        <item index="4" class="java.lang.String" itemvalue="Python.request2jvv" />
+        <item index="0" class="java.lang.String" itemvalue="Python.common_openaptest" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest userResetPwd.test_suc_resetloginpwd" />
+        <item index="2" class="java.lang.String" itemvalue="Python.test_new_userinfo" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest new_userinfo.test_suc_userinfo" />
+        <item index="4" class="java.lang.String" itemvalue="Python.run_tests" />
       </list>
     </recent_temporary>
   </component>
@@ -734,17 +751,21 @@
       <option name="project" value="LOCAL" />
       <updated>1489648149950</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="单独封装logging模块">
+      <created>1489656379963</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1489656379963</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittest_new_userinfo_test_suc_userinfo - 2017.03.15 at 18h 17m 23s.xml">
-      <configuration name="Unittest new_userinfo.test_suc_userinfo" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittest_new_userinfo_test_suc_userinfo - 2017.03.15 at 18h 19m 34s.xml">
-      <configuration name="Unittest new_userinfo.test_suc_userinfo" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittest_new_userinfo_test_suc_userinfo - 2017.03.15 at 18h 20m 21s.xml">
+      <configuration name="Unittest new_userinfo.test_suc_userinfo" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittest_new_userinfo_test_suc_userinfo - 2017.03.16 at 17h 29m 32s.xml">
       <configuration name="Unittest new_userinfo.test_suc_userinfo" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittest_new_userinfo_test_suc_userinfo_(1) - 2017.03.15 at 17h 41m 13s.xml">
@@ -752,6 +773,9 @@
     </history-entry>
     <history-entry file="Unittest_new_userinfo_test_suc_userinfo_(2) - 2017.03.15 at 17h 43m 08s.xml">
       <configuration name="Unittest new_userinfo.test_suc_userinfo (2)" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittest_userResetPwd_test_suc_resetloginpwd - 2017.03.17 at 11h 06m 17s.xml">
+      <configuration name="Unittest userResetPwd.test_suc_resetloginpwd" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_in_ChangePayword - 2017.03.14 at 17h 38m 28s.xml">
       <configuration name="Unittests in ChangePayword" configurationId="tests" />
@@ -783,7 +807,7 @@
     <editor active="false" />
     <layout>
       <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29584223" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25692964" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.52979416" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3206934" sideWeight="0.50852877" order="7" side_tool="true" content_ui="tabs" />
@@ -791,7 +815,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22101842" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3066089" sideWeight="0.4914712" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32394367" sideWeight="0.4914712" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -856,14 +880,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://C:/Program Files/Python35/Lib/site-packages/pyDes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="75" column="18" selection-start-line="75" selection-start-column="17" selection-end-line="75" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/DES.py" />
     <entry file="file://C:/Program Files/Python35/Lib/json/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -900,13 +916,6 @@
     <entry file="file://$PROJECT_DIR$/other/testthreadinglocal.py" />
     <entry file="file://$PROJECT_DIR$/other/testslave.py" />
     <entry file="file://$PROJECT_DIR$/interface/test_Changepassword.py" />
-    <entry file="file://$PROJECT_DIR$/common/interfaceDes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/report/接口测试报告_2017-03-15 09-54-30.html" />
     <entry file="file://$PROJECT_DIR$/common/sendmail.py" />
     <entry file="file://$PROJECT_DIR$/report/接口测试报告_2017-03-15 10-22-31.html" />
@@ -939,7 +948,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="169">
           <caret line="58" column="19" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -952,35 +960,13 @@
     <entry file="file://$PROJECT_DIR$/report/接口测试报告_2017-03-15 18-02-16.html" />
     <entry file="file://$PROJECT_DIR$/run.log" />
     <entry file="file://$PROJECT_DIR$/2017-03-15.log" />
-    <entry file="file://$PROJECT_DIR$/report/log/2017-03-15.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="69" selection-start-line="6" selection-start-column="69" selection-end-line="6" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/report/接口测试报告_2017-03-16 10-03-02.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/report/接口测试报告_2017-03-16 13-46-01.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/report/log/2017-03-15.log" />
+    <entry file="file://$PROJECT_DIR$/report/接口测试报告_2017-03-16 10-03-02.html" />
+    <entry file="file://$PROJECT_DIR$/report/接口测试报告_2017-03-16 13-46-01.html" />
     <entry file="file://C:/Program Files/Python35/Lib/logging/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="268">
           <caret line="484" column="29" selection-start-line="484" selection-start-column="28" selection-end-line="484" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -988,15 +974,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="236">
           <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/request2jww.py">
+    <entry file="file://C:/Program Files/Python35/Lib/site-packages/xlutils/tests/test_filter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="36" column="63" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="63" />
-          <folding />
+        <state relative-caret-position="-17758">
+          <caret line="804" column="8" selection-start-line="804" selection-start-column="8" selection-end-line="804" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -1008,50 +999,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/request2jwwstrict.py">
+    <entry file="file://$PROJECT_DIR$/interface/test_new_userinfo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files/Python35/Lib/site-packages/xlutils/tests/test_filter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17758">
-          <caret line="804" column="8" selection-start-line="804" selection-start-column="8" selection-end-line="804" selection-end-column="8" />
+        <state relative-caret-position="552">
+          <caret line="23" column="19" selection-start-line="4" selection-start-column="0" selection-end-line="23" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/interface/test_ChangePayword.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
+        <state relative-caret-position="366">
           <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interface/test_new_userinfo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/run_tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/report/log/2017-03-16.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
           <folding />
         </state>
       </provider>
@@ -1064,9 +1023,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/common/request2jwwstrict.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="936">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/request2jww.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="36" column="63" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/interfaceDes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/log/2017-03-16.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/common/excelreader.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
+        <state relative-caret-position="283">
           <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
           <folding />
         </state>
@@ -1074,11 +1065,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/common/request2jvv.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="57" column="21" selection-start-line="57" selection-start-column="21" selection-end-line="57" selection-end-column="21" />
-          <folding>
-            <element signature="e#363#594#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="-773">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/common_openaptest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface/test_userResetPwd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
